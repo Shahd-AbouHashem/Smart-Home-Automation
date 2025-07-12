@@ -18,12 +18,15 @@ on the LCD.
 ## Features:
 • Automatic Lighting Control: Based on the LDR readings, the system controls three LEDs
 according to light intensity thresholds.
+
 • Automatic Fan Speed Control: Fan speed is automatically adjusted based on room
 temperature, controlled by a PWM signal. The fan operates at different speeds based on
 temperature ranges.
+
 • Fire Detection and Alert: The system raises an alarm and displays "Critical alert!" on the
 LCD if fire is detected. The system remains in alert mode until the flame is no longer
 detected.
+
 • LCD Display: Real-time feedback on system status:
 o First Row: Displays "FAN is ON" or "FAN is OFF" based on the fan's state.
 o Second Row: Displays "Temp= xxC LDR= xxx%" showing temperature and light
